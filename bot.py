@@ -38,6 +38,8 @@ CONFIG = {
     'db_name': os.getenv('MONGO_DB_NAME', 'ads_bot_db'),
     'logger_bot_token': os.getenv('LOGGER_BOT_TOKEN', '8572068771:AAEq5WVx5G8NadqP0JWfIwWAJyoG3JnEn3I'),
     'logger_bot_username': os.getenv('LOGGER_BOT_USERNAME', 'Logsadsreachbot'),
+    'auto_reply': os.getenv('AUTO_REPLY', 'Check @Axcneog'),
+    'reply_cooldown': int(os.getenv('REPLY_COOLDOWN', '120')),
 }
 
 # Encryption key
